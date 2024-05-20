@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins",sans-serif;
+
+
+}
+section{
+    position:relative ;
+    width:100% ;
+    min-height:100vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    background:url(bg1.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+header{
+    position:relative ;
+    top:0 ;
+    width:90% ;
+    padding: 30px 100px;
+    display: flex;
+    justify-content:space-between ;
+    align-items:center ;
+}
+header .logo{
+    position: relative;
+    color: #520202;
+    font-size:50px;
+    text-shadow:2px 1px 2px #000;
+    text-decoration:none ;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+ 
+header .navigation a{
+    color: #000;
+    background-color: rgb(255, 235, 205);
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property:background;
+}
+header .navigation a:not(:last-child){
+    margin-right: 40px;
+}
+header .navigation a:hover{
+background: #f1993b ;
+
+}
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+}
+.content .info h2{
+    color: #812155;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.content .info h2 span{
+    color: #c12a2a;
+    font-size: 65px;
+    font-weight: 600;
+}
+.content .info.p{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    margin-bottom: 40px;
+
+}
+.content .info-btn{
+    color:#000;
+    background:#ba3636 ;
+    text-decoration:none ;
+    text-transform:uppercase ;
+    font-weight:700 ;
+    letter-spacing: 2px;
+    padding:3px 10px ;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: background;
+}
+
+.content .info-btn:hover{
+    background: #b96464;
+}
+.footer{
+    position:relative ;
+    width:100% ;
+    background-color: #520202;
+    min-height:30vh ;
+    display: flex;
+    flex-direction: column;
+   }
+ .media-icons{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: auto;
+    }
+   .media-icons a{
+        position: relative;
+        color: rgb(161, 200, 230);
+        font-size: 45px;
+        transition: 0.3s;
+        transition-property:transform;
+
+    }
+   .media-icons a:not(last-child){
+       margin-right: 60px;
+    }
+     .media-icons a:hover{
+        transform: scale(1.5s);
+    }
+
+
+
+
+
+
